@@ -5,6 +5,10 @@ import { ITransactionsRepository } from "../../src/repositories/ITransactionsRep
 export class InMemoryTransactionsRepository implements ITransactionsRepository {
   constructor(private transactions: Transaction[] = []) { }
 
+  all(): Transaction[] {
+    return this.transactions;
+  }
+
   create(data: CreateTransactionDto): Transaction {
     const transaction = new Transaction();
 
