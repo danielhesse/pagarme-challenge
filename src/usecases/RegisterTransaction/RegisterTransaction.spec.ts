@@ -18,7 +18,6 @@ describe("Register Transaction Use Case", () => {
       cvv: "123",
     });
 
-    console.log(result);
     expect(result).toHaveProperty("id");
   });
 });
