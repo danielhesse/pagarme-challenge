@@ -1,16 +1,13 @@
 import { BaseEntity } from "./BaseEntity";
 
-export enum ETransactionPaymentMethods {
-  "credit_card",
-  "debit_card"
-}
+export type TransactionPaymentMethod = "debit_card" | "credit_card";
 
 export class Transaction extends BaseEntity {
   amount: number;
 
   description: string;
 
-  payment_method: ETransactionPaymentMethods;
+  payment_method: TransactionPaymentMethod;
 
   card_number: string;
 
