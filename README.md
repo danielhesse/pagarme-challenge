@@ -62,7 +62,7 @@ Npm is distributed with Node.js which means that when you download Node.js, you 
 - [Node.js v16.14.2](https://nodejs.org/) or heigher.
 
 Yarn is a package manager created by the Facebook team and seems to be faster than npm in general.
-- [Yarn v1.22.5](https://yarnpkg.com/) or heigher.
+- [Yarn v1.22.18](https://yarnpkg.com/) or heigher.
 
 <!-- As mentioned before, we are using Apache Kafka to handle the communication between the services and Postgres to the database, and the best way to run these environments locally is using Docker, for that you will need to have it installed on your machine. [Click here to install Docker](https://www.notion.so/Docker-e-Docker-Compose-16771f2ceefe4a05a8c29df4ca49e97a). -->
 
